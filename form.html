@@ -6,18 +6,16 @@
     <body>
         <h1>Üye Kayıt Formu</h1>
         <form name="kayit" action="kayit.php" method="GET">
-            Ad Soyad: <input type="text" name="adsoyad" id="idadsoyad"
-            size="20" maxlength="30" required >
-            <br>
-            Email: <input type="email" name="email" id="email" required>
-            <br>
-            Web Sitesi: <input type="url" name="adres" id="adres">
-            <br>
-            Yaşınız: <input type="number" name="yas" id="yas">
-            <br>
-            
-            <input type="submit" value="Gönder">
-            <input type="reset" value="Temizle">
+            <table border="1">
+                <tr><td>Ad Soyad: </td><td><input type="text" name="adsoyad" id="idadsoyad"
+                    size="20" maxlength="30" required ></td></tr>
+                <tr><td>Email:</td><td><input type="email" name="email" id="email" required></td></tr>
+                <tr><td>Web Sitesi:</td><td><input type="url" name="adres" id="adres"></td></tr>
+                <tr><td>Yaşınız</td><td><input type="number" name="yas" id="yas"></td></tr>
+                <tr><td><input type="submit" value="Gönder"></td><td><input type="reset" value="Temizle"></td></tr>
+
+
+            </table>    
         </form>
     </body>
 </html>
